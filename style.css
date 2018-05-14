@@ -1,0 +1,96 @@
+body{
+    background-color: wheat;
+}
+
+.contentBox {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#backColor{
+    background-color: white;
+}
+
+header .contentBox{
+    flex-direction: column;
+}
+header h1 {
+    font-size: 32px;
+    margin: 8px;
+}
+header h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+.input .contentBox{
+    flex-direction: column;
+    position: relative;
+    margin-top: 8px;
+}
+.input .playerInput{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 80px;
+    text-align: center;
+}
+.input .submit{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    left: 525px;
+    background-color: green;
+    font-size: 24px;
+}
+
+
+.guesses .contentBox{
+    height: 80px;
+    justify-content: center;
+}
+.guesses li {
+    display: inline;
+    border-radius: 10%;
+    border: 2px solid black;
+    padding: 8px 24px;
+    font-size: 24px;
+    margin: 4px;
+}
+
+
+.menu .contentBox{
+    justify-content: center;
+}
+
+.menu button{
+    border: 1px solid black;
+    margin: 4px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+.menu .reset{
+    background-color: red;
+}
+.menu .hint{
+    background-color: blue;
+}
+
+
+footer .contentBox{
+    border-top: 4px solid black;
+    margin-top: 4px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+footer img {
+    max-width: 25%;
+    max-height: 25%;
+}

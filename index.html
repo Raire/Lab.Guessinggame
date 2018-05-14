@@ -8,7 +8,47 @@
   <body>
     <!--Header-->
     <header>
-      
+      <div class='contentBox'>
+          <h1>Play The Guessing Game!</h1>
+          <h2>Guess A Number Between 1-100</h2>
+      </div>
     </header>
+
+    <!--Input-->
+    <section class='input'>
+      <div class='contentBox'>
+          <input class='playerInput' placeholder="#" maxlength="3" autofocus="autofocus"></input>
+          <button class='submit'>Go!</button>
+      </div>
+    </section>
+
+    <!--Recent Guesses-->
+    <section class='guesses'>
+      <div class='contentBox'>
+          <ul>
+              <li id="backColor">-</li>
+              <li id="backColor">-</li>
+              <li id="backColor">-</li>
+              <li id="backColor">-</li>
+              <li id="backColor">-</li>
+            </ul>
+      </div>
+    </section>
+
+    <!--Menu-->
+    <section class='menu'>
+      <div class='contentBox'>
+          <button class='reset'>Reset</button>
+          <button class='hint'>Hint</button>
+      </div>
+    </section>
   </body>
+
+  <footer>
+    <div class='contentBox' id="backColor">
+        <img src='fa-logo@2x.png'></img>
+        <h4>Project By Asher</h4>
+        <img src='grace_hopper_academy.png'></img>
+    </div>
+  </footer>
 </html>
